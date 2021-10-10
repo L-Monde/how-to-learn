@@ -27,7 +27,7 @@
 }
  .header__link {
    text-decoration: none;
-   color:  #2f80ed ;
+   color:  #2f80ed;
  }
  .logo_place_header {
     width: 182px;
@@ -57,7 +57,7 @@
     bottom: 30px;
     line-height: 25px;
     font-size: 18px;
-    font-weight: normal; 
+    font-weight: normal;
     z-index: 2;
   }
   .header__main-illustration {
@@ -71,16 +71,12 @@
   .header__square-pic {
     width: 568px;
     height: 588px;
-    background-color:  #2f80ed ;
+    background-color:  #2f80ed;
     position: absolute;
     top: 64px;
     right: 0px;
   }
-  /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
-  .header__square-pic {
-  height: 568px;
-  width: 568px;
-  }
+
 
   .description {
     margin-top: 100px;
@@ -174,7 +170,7 @@
 
   .feynman {
     height: 890px;
-    background-image: url("../images/feynman.png") ;
+    background-image: url("../images/feynman.png");
     background-repeat: no-repeat;
     background-position: left bottom;
     background-size: 867px 637px;
@@ -199,7 +195,7 @@
       font-size: 120px;
       font-weight: bold;
       width: 648px;
-      text-align: center;  
+      text-align: center;
       z-index: 1;
     }
     .feynman__subtitle {
@@ -233,7 +229,7 @@
   }
     .kaufman__triangle {
       height: 877px;
-      width: 877px;    
+      width: 877px;
       position: absolute;
       right: -210px;
       z-index: 1;
@@ -283,7 +279,7 @@
     justify-content: space-between;
   }
   .footer__column_content_info {
-    width:auto !important;
+    width:auto;
   }
     .column_heading {
       margin-bottom: 20px;
@@ -318,10 +314,3 @@
     font-style: normal;
   }
 
-/* и элемента с модификатором вида ключ-значение */
-.table__cell_theme_dark {
-  width: 200px;
-  color: white;
-  margin-right: 0;
-  margin-top: 80px;
-}
