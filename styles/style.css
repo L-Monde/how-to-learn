@@ -81,7 +81,7 @@
   height: 568px;
   width: 568px;
   }
-.content {}
+
   .description {
     margin-top: 100px;
     /*background-color:blanchedalmond;*/
@@ -174,7 +174,7 @@
 
   .feynman {
     height: 890px;
-    background-image: url("C:/Users/Lemond/dev/How-to-learn/how-to-learn/images/feynman.png") ;
+    background-image: url("../images/feynman.png") ;
     background-repeat: no-repeat;
     background-position: left bottom;
     background-size: 867px 637px;
@@ -255,11 +255,69 @@
     .table__cell_theme_dark {
       margin-top:  80px;
     }
-    .table__heading_theme_dark {
+.footer {
+  min-height: 350px;
+  background-color: #1f1f1f;
+  position: relative;
+  color: white;
+}
+  .logo_place_footer {
+    width: 183px;
+    height: 35px;
+  }
+  .footer__columns {
+    width: 90%;
+    margin: 60px auto 40px auto;
+    position: absolute;
+    top: 60px;
+    right: 5%;
+    bottom: 40px;
+    left: 5%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .footer__column_content_copyright {
+    flex-basis: 711px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .footer__column_content_info {
+    width:auto !important;
+  }
+    .column_heading {
+      margin-bottom: 20px;
+      line-height: 30px;
+      font-size: 18px;
+      font-weight: bold;
     }
-    .table__text_theme_dark {
+    .footer__column-links {
+      margin-bottom: 16px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      
     }
-.footer {}
+    .footer__column-link {
+      text-decoration: none;
+      color: white;
+      line-height: 30px;
+      font-size: 18px;
+      font-weight: normal;
+    }
+ 
+  .social-icon {
+    margin-right: 10px;
+    height: 16px;
+    width: 16px;
+  }
+  .footer__author {
+    margin: 18px auto 18px 0;
+    line-height: 25px;
+    font-size: 18px;
+    font-style: normal;
+  }
+
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
   width: 200px;
