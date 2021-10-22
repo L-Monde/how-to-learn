@@ -35,8 +35,7 @@
 .header__title_position {
   margin: 0;
   width: 730px;
-  margin: auto;
-  margin-left: 64px;
+  margin: auto 64px;
   /*background-color: aqua;*/
   z-index: 2;
 }
