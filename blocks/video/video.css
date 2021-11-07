@@ -1,0 +1,7 @@
+.video {
+    /*background-color: cornflowerblue;*/
+    display: flex;
+    flex-direction: column;
+    overflow: visible;
+    padding-top: 100px;
+  }

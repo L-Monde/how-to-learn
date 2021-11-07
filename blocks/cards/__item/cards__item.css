@@ -1,0 +1,15 @@
+.cards__item {
+    /*background-color: chartreuse;*/
+    margin: 0px 50px;
+    display: flex;
+    flex-direction: column;
+    inline-size: min-content;
+    text-align: center;
+    text-decoration: none;
+  }
+  .cards__item:nth-of-type(3n-2) {
+    margin-left: 0;
+  }
+  .cards__item:nth-of-type(3n) {
+    margin-right: 0;
+  }
